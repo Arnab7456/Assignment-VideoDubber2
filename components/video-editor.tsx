@@ -676,11 +676,11 @@ export default function VideoEditor() {
           <ResizableHandle />
 
           <ResizablePanel defaultSize={75}>
-            <div className="h-full flex flex-col bg-black">
+            <div className="h-full flex flex-col bg-gray-50">
               <div className="flex-1 flex items-center justify-center p-4">
                 <div
                   ref={canvasRef}
-                  className="bg-black relative overflow-hidden"
+                  className="bg-gray-50 relative overflow-hidden"
                   style={{ width: "100%", height: "90%", maxWidth: "1280px", maxHeight: "720px" }}
                 >
                   {mediaElements.map((media) => {
